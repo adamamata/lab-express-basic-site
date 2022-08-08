@@ -17,6 +17,4 @@ app.get('/gallery', (req, res) => {
     res.sendFile(__dirname + '/views/gallery.html');
 })
 
-
-
 app.listen(3000, () => {console.log("Listening on port 3000!")});
